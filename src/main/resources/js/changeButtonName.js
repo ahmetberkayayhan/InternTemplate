@@ -1,2 +1,6 @@
-//This is how you get an element with CSS selector, do some js to change text
-AJS.$("cssselector here");
+AJS.toInit(function () {
+
+    document.querySelector('#create_link.aui-button.aui-button-primary.aui-style.create-issue')
+        .textContent = 'Loading..';
+
+});
